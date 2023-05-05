@@ -6,6 +6,12 @@
     width: 100%;
     background-color: #e5e5e5;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 0.5rem;
+}
+
+.icon-round-gray{
+    border-radius: 50%;
+    background-color: #5b5858;
+    padding: 0.7rem 0.3rem;
 }

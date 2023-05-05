@@ -19,7 +19,7 @@
     <header>
         <div class="container-fluid">
             <nav>
-                <div class="row d-flex justify-content-spacebetween align-items-center p-2">
+                <div class="row d-flex justify-content-between align-items-center p-2">
                     <div class="col-3">
                         <div>
                             <img class="d-none d-md-block" src="img/logo.svg" alt="">
@@ -27,10 +27,24 @@
                         </div>
                     </div>
                     <div class="col">
-                        <input class="search-bar" type="text" placeholder=" Prova a cercare: Lezioni di Laravel">
+                        <input class="search-bar" type="text" placeholder=" &#128269; Prova a cercare: Lezioni di Laravel">
                     </div>
-                    <div class="col-3">
-                        
+                    <div class="col-2">
+                        <i class="fa-solid fa-list-ul fa-lg px-2 d-none d-md-block" style="color: #5b5858;"></i>
+                        <i class="fa-solid fa-question icon-round-gray fa-lg d-none d-md-block" style="color: white;"></i>
+                        <i class="fa-solid fa-ellipsis-vertical fa-lg px-2 d-none d-md-block" style="color: #5b5858;"></i>
+                        <div class="input-group">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle ms-auto" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>                    
             
