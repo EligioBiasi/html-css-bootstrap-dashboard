@@ -26,8 +26,8 @@ a{
 }
 
 .side-bar{
-    height: calc(100vh - 56px);
-    width: 80px;
+    height: calc(100vh - 88px);
+    width: 60px;
 }
 
 @media screen and (min-width:768px){
