@@ -80,13 +80,29 @@
                 <div class="d-flex align-items-center mb-3 header-col justify-content-md-end">
                     <p class="pt-3 pe-3">Nuovo Studente</p>
                     <button class="button-offcanvas px-3 py-2 rounded-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus fa-md" style="color: #fefefe;"></i></button>
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas offcanvas-end text-black" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <p class="m-0 fs-5">Inserisci un nuovo studente</p>
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                                ...
+                                <form>
+                                    <div class="mb-3 d-flex">
+                                        <div>
+                                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                        </div>
+                                        <div>
+                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">                                 
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
                             </div>
                         </div>
                 </div>
