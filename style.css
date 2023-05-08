@@ -1,5 +1,6 @@
 main{
     height: calc(100vh - 88px);
+    overflow: auto;
 }
 
 a{
@@ -60,10 +61,35 @@ header.blue-background{
     width: 100%;
 }
 
-table.table,
-.title-table
+.green-pill{
+    color: white;
+    padding: .3rem .4rem;
+    background-color: #198754;
+    border-radius: 1rem;
+}
+
+.yellow-pill{
+    color: white;
+    padding: .3rem .4rem;
+    background-color: #ffc107;
+    border-radius: 1rem;
+}
+
+.red-pill{
+    color: white;
+    padding: .3rem .4rem;
+    background-color: #dc3545;
+    border-radius: 1rem;
+}
+
+.title-table,
+.table-table
 {
     border: 1px solid #dadada;
+}
+
+.big-table-row{
+    width: 40%;
 }
 
 div.offcanvas.offcanvas-end.text-black{
@@ -73,6 +99,12 @@ div.offcanvas.offcanvas-end.text-black{
 tr th img{
     width: 25px;
     margin-right: .5rem;
+}
+
+td i{
+    border: 1px solid #6c757d;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
 }
 
 @media screen and (min-width:768px){
