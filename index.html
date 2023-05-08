@@ -75,9 +75,9 @@
                 </div>
             </div>
         </section>
-        <header class="blue-background w-100 p-3 text-white ">
-            <div class="d-flex flex-column">
-                <div class="d-flex align-items-center">
+        <header class="blue-background w-100 py-3 px-4 text-white ">
+            <div class="d-flex flex-column flex-md-row-reverse align-items-center-md justify-content-between">
+                <div class="d-flex align-items-center mb-3 header-col justify-content-md-end">
                     <p class="pt-3 pe-3">Nuovo Studente</p>
                     <button class="button-offcanvas px-3 py-2 rounded-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus fa-md" style="color: #fefefe;"></i></button>
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -90,16 +90,23 @@
                             </div>
                         </div>
                 </div>
-                <div class="d-flex flex-column">
-                    <div class="d-flex mb-3">
-                        <h4 class="fw-semibold pe-3">Boolean</h4>
-                        <button class="gray-button text-white">Piano Blaze</button>
+                <div class="d-flex flex-column flex-md-row order-md-1 header-col">
+                    <div class="w-100">
+                        <div class="d-flex mb-3">
+                            <h4 class="fw-semibold pe-3">Boolean</h4>
+                            <button class="gray-button text-white">Piano Blaze</button>
+                        </div>
+                        <div class="mb-3 d-flex flex-wrap">
+                            <button class="gray-button text-white fw-semibold">3 App</button>
+                            <i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>
+                            <button class="gray-button text-white d-lg-none"><i class="fa-solid fa-plus fa-md" style="color: #fefefe;"></i></button>
+                            <button class="gray-button text-white fw-semibold d-none d-lg-block">Boolean mobile app</button>
+                            <button class="gray-button text-white fw-semibold d-none d-lg-block">Boolean web app</button>
+                            <button class="gray-button text-white fw-semibold d-none d-lg-block">Boolean blog app</button>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <button class="gray-button text-white fw-semibold">3 App</button>
-                        <i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>
-                        <button class="gray-button text-white"><i class="fa-solid fa-plus fa-md" style="color: #fefefe;"></i></button>
-                    </div>
+                </div>
+                <div class="class="d-flex flex-column flex-md-row header-col>
                     <div>
                         <h5 class="fw-semibold">Studenti online negli ultimi 30 minuti</h5>
                         <h2>125</h2>
