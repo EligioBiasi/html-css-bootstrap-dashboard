@@ -39,6 +39,19 @@ header.blue-background{
     background-size: cover;
 }
 
+.button-offcanvas{
+    border: 2px solid white;
+    background-color: transparent ;
+}
+
+.gray-button{
+    background-color: #165bba;
+    border: none;
+    border-radius: 1rem;
+    font-size: smaller;
+    padding: 0 .4rem;
+}
+
 @media screen and (min-width:768px){
     section.side-bar{
         width: 120px;
